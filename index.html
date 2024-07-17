@@ -44,7 +44,7 @@
                     <li><a href="#about">ABOUT</a></li>
                     <li><a href="#skills">SKILLS</a></li>
                     <li><a href="#projects">PROJECTS</a></li>
-                    <li><a href="#blog">BLOG</a></li>
+                    <!-- <li><a href="#blog">BLOG</a></li> -->
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </div>
@@ -66,65 +66,145 @@
         <section class="crafting-ideas" id="about">
             <h2>CRAFTING IDEAS INTO STUNNING WEB REALITIES</h2>
             <div class="line"></div>
-            <p>Passionate about frontend development since my early days, I bring a tech-driven journey to your team.
+            <div class="aboutpara">
+                <p>Passionate about frontend development since my early days, I bring a tech-driven journey to your
+                    team.
+                </p>
+                <p>Known for my precision and a commitment to perfection, I tackle challenges head-on, always figuring
+                    things out even in the unknown.</p>
+                <p>As a team player with a friendly demeanor, I seamlessly fit into any collaborative environment.</p>
+                <p>Let's connect and craft remarkable web experiences together!</p>
+            </div>
+
+        </section>
+
+        <section id="skills" class="min-h-screen p-8 text-purple-800 flex justify-center items-center bg-transparent">
+            <div class="w-full max-w-4xl mx-auto text-center">
+                <h2 class="text-4xl font-archivo font-bold mb-12 text-purple-800">SKILLS</h2>
+                <div class="flex flex-wrap justify-center gap-6">
+                    <div
+                        class="bg-white text-purple-800 py-3 px-6 rounded-md text-lg font-semibold border-2 border-purple-800 shadow-md hover:bg-purple-100 transition-colors duration-300">
+                        HTML</div>
+                    <div
+                        class="bg-white text-purple-800 py-3 px-6 rounded-md text-lg font-semibold border-2 border-purple-800 shadow-md hover:bg-purple-100 transition-colors duration-300">
+                        CSS</div>
+                    <div
+                        class="bg-white text-purple-800 py-3 px-6 rounded-md text-lg font-semibold border-2 border-purple-800 shadow-md hover:bg-purple-100 transition-colors duration-300">
+                        Javascript</div>
+                    <div
+                        class="bg-white text-purple-800 py-3 px-6 rounded-md text-lg font-semibold border-2 border-purple-800 shadow-md hover:bg-purple-100 transition-colors duration-300">
+                        Node.js</div>
+                    <div
+                        class="bg-white text-purple-800 py-3 px-6 rounded-md text-lg font-semibold border-2 border-purple-800 shadow-md hover:bg-purple-100 transition-colors duration-300">
+                        React JS</div>
+                    <div
+                        class="bg-white text-purple-800 py-3 px-6 rounded-md text-lg font-semibold border-2 border-purple-800 shadow-md hover:bg-purple-100 transition-colors duration-300">
+                        Next.js</div>
+                    <div
+                        class="bg-white text-purple-800 py-3 px-6 rounded-md text-lg font-semibold border-2 border-purple-800 shadow-md hover:bg-purple-100 transition-colors duration-300">
+                        Tailwind CSS</div>
+                    <div
+                        class="bg-white text-purple-800 py-3 px-6 rounded-md text-lg font-semibold border-2 border-purple-800 shadow-md hover:bg-purple-100 transition-colors duration-300">
+                        Git</div>
+                    <div
+                        class="bg-white text-purple-800 py-3 px-6 rounded-md text-lg font-semibold border-2 border-purple-800 shadow-md hover:bg-purple-100 transition-colors duration-300">
+                        GitHub</div>
+                    <div
+                        class="bg-white text-purple-800 py-3 px-6 rounded-md text-lg font-semibold border-2 border-purple-800 shadow-md hover:bg-purple-100 transition-colors duration-300">
+                        Figma</div>
+                    <div
+                        class="bg-white text-purple-800 py-3 px-6 rounded-md text-lg font-semibold border-2 border-purple-800 shadow-md hover:bg-purple-100 transition-colors duration-300">
+                        Vercel</div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="projects" class="projects bg-purple-400 p-8">
+            <div class="max-w-12xl mx-auto">
+                <h2 class="text-4xl font-archivo font-bold text-center text-white mb-10 mt-10">PROJECTS</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-0.5">
+
+                    <div class="projectcard bg-white rounded-lg p-6 shadow-md">
+                        <h3 class="text-2xl font-archivo font-bold text-grape">SilkCraft</h3>
+                        <p class="text-sm text-grape mb-4">HTML | CSS | Javascript | React</p>
+                        <p class="text-grape mb-4">An e-commerce platform showcasing Paithani silk sarees with mock
+                            backend, login and signup management functionality.</p>
+                        <p class="text-grape mb-4"><span class="font-bold">Learnings:</span> Acquired React skills,
+                            learnt components organization, effectively utilized multiple hooks, and refined API call
+                            orchestration.</p>
+                        <div class="flex gap-4">
+                            <a href="#" class="text-grape underline hover:opacity-75">Visit</a>
+                            <a href="#" class="text-grape underline hover:opacity-75">View Source</a>
+                        </div>
+                    </div>
+
+                    <div class="projectcard bg-white rounded-lg p-6 shadow-md">
+                        <h3 class="text-2xl font-archivo font-bold text-grape">BuzzShare</h3>
+                        <p class="text-sm text-grape mb-4">HTML | CSS | Javascript | React</p>
+                        <p class="text-grape mb-4">Created BuzzShare, a dynamic social media web-app with login/signup
+                            and personalized profiles and posts.</p>
+                        <p class="text-grape mb-4"><span class="font-bold">Learnings:</span> Developed proficiency in
+                            writing optimized React code and implementing aesthetically pleasing color schemes.</p>
+                        <div class="flex gap-4">
+                            <a href="#" class="text-grape underline hover:opacity-75">Visit</a>
+                            <a href="#" class="text-grape underline hover:opacity-75">View Source</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact bg-pink-200 min-h-screen flex flex-col items-center justify-center mt-40 text-center p-4">
+            <h2 class="text-4xl text-purple-700 mb-6">CONTACT</h2>
+
+            <p class="text-purple-800 mb-4">| I AM OPEN TO WORK AND NETWORK |</p>
+
+            <p class="text-purple-750 max-w-xl mb-8">
+                If you have an exciting project in mind, want to collaborate, or simply wish to connect, let's initiate
+                a conversation.
             </p>
-            <p>Known for my precision and a commitment to perfection, I tackle challenges head-on, always figuring
-                things out even in the unknown.</p>
-            <p>As a team player with a friendly demeanor, I seamlessly fit into any collaborative environment.</p>
-            <p>Let's connect and craft remarkable web experiences together!</p>
-        </section>
 
-        <section class="skills" id="skills">
-            <h2>SKILLS</h2>
-            <div class="skills-container">
-                <div class="skill">HTML</div>
-                <div class="skill">CSS</div>
-                <div class="skill">Javascript</div>
-                <div class="skill">Node.js</div>
-                <div class="skill">React JS</div>
-                <div class="skill">Next.js</div>
-                <div class="skill">Tailwind CSS</div>
-                <div class="skill">Git</div>
-                <div class="skill">GitHub</div>
-                <div class="skill">Figma</div>
-                <div class="skill">Vercel</div>
-            </div>
-        </section>
-
-
-        <section class="projects" id="projects">
-            <h2>PROJECTS</h2>
-            <div class="projects-container">
-                <div class="project-card">
-                    <h3>SilkCraft</h3>
-                    <p class="technologies">HTML | CSS | Javascript | React</p>
-                    <p class="description">An e-commerce platform showcasing Paithani silk sarees with mock backend,
-                        login and signup management functionality.</p>
-                    <p class="learnings"><strong>Learnings:</strong> Acquired React skills, learnt components
-                        organization, effectively utilized multiple hooks, and refined API call orchestration.</p>
-                    <div class="project-links">
-                        <a href="#" class="visit-link">Visit</a>
-                        <a href="#" class="source-link">View Source</a>
-                    </div>
-                </div>
-                <div class="project-card" id="projects">
-                    <h3>BuzzShare</h3>
-                    <p class="technologies">HTML | CSS | Javascript | React</p>
-                    <p class="description">Created BuzzShare, a dynamic social media web-app with login/signup and
-                        personalized profiles and posts.</p>
-                    <p class="learnings"><strong>Learnings:</strong> Developed proficiency in writing optimized React
-                        code and implementing aesthetically pleasing color schemes.</p>
-                    <div class="project-links">
-                        <a href="#" class="visit-link">Visit</a>
-                        <a href="#" class="source-link">View Source</a>
-                    </div>
-                </div>
-            </div>
+            <a href="newcontact.html" class="text-purple-800 hover:text-purple-600">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+            </a>
         </section>
 
 
     </main>
     <script src="script.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'archivo': ['Archivo Black', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <script>
+        module.exports = {
+            theme: {
+                extend: {
+                    colors: {
+                        'purple-800': '#5E4B8B', // Adjust to match your purple
+                        'cream': '#F5E6D3', // Adjust to match your cream color
+                    },
+                    fontFamily: {
+                        'archivo': ['Archivo', 'sans-serif'],
+                    },
+                },
+            },
+            // ...
+        }
+    </script>
 </body>
 
 </html>

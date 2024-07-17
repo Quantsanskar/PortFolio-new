@@ -288,47 +288,17 @@ menu-open #about {
     line-height: 1.6;
     margin-bottom: 15px;
     max-width: 780px;
-    margin-left: 220px;
+    margin-left: 0;
     margin-right: 0;
 }
-
-.skills {
-    background: linear-gradient(135deg, #f8d7da, #e2d4f0);
-    padding: 100px 20px;
-    width: 100%;
+.aboutpara {
     text-align: center;
-    color: #8622c8;
-    margin-bottom: 30vh;
+    margin: 0 auto; /* This centers the div horizontally */
+    width: fit-content; /* Adjust the width to fit the content */
 }
 
-.skills h2 {
-    font-family: 'Archivo Black', sans-serif;
-    font-size: 26px;
-    margin-bottom: 40px;
-}
 
-.skills-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    max-width: 800px;
-    margin: 0 auto;
-}
 
-.skill {
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 20px;
-    padding: 10px 20px;
-    font-size: 16px;
-    color: #613F75;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
-
-.skill:hover {
-    transform: translateY(-5px);
-}
 #skills{
     opacity: 1;
     visibility: visible;
@@ -340,72 +310,17 @@ menu-open #skills {
     visibility: hidden;
     transition: opacity 0.3s ease, visibility 0.3s ease;
 }
-
-
-.projects {
-    background-color: #9896d6;
-    padding: 50px 20px;
-    text-align: center;
+.projects{
     width: 100%;
-}
-
-.projects h2 {
-    color: white;
-    font-size: 26px;
-    margin-bottom: 30px;
-    font-family: 'Archivo Black', sans-serif;
-}
-
-.projects-container {
     display: flex;
     justify-content: center;
-    gap: 2px;
-    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10vh;
+}
+.projectcard{
+    width: 400px;
 }
 
-.project-card {
-    background-color: #faf9f6;
-    border-radius: 5px;
-    padding: 20px;
-    width: 100%;
-    max-width: 450px;
-    text-align: left;
-}
-
-.project-card h3 {
-    color: #68458c;
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-
-.project-card .technologies {
-    color: #888;
-    font-size: 0.9rem;
-    margin-bottom: 15px;
-}
-
-.project-card .description,
-.project-card .learnings {
-    color: #333;
-    font-size: 1rem;
-    line-height: 1.5;
-    margin-bottom: 15px;
-}
-
-.project-links {
-    margin-top: 20px;
-}
-
-.project-links a {
-    color: #68458c;
-    text-decoration: none;
-    margin-right: 15px;
-    font-weight: bold;
-}
-
-.project-links a:hover {
-    text-decoration: underline;
-}
 #projects{
     opacity: 1;
     visibility: visible;
@@ -417,7 +332,20 @@ menu-open #projects {
     visibility: hidden;
     transition: opacity 0.3s ease, visibility 0.3s ease;
 }
+.contact{
+    width: 100%;
+}
+#contact{
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
 
+menu-open #contact {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
 @media (max-width: 768px) {
     .name {
         font-size: 3rem;
@@ -453,9 +381,14 @@ menu-open #projects {
         align-items: center;
     }
     .projects h2{
+        margin-top: 4vh;
         font-size: 26px;
     }
     .project-card{
         margin-top: 3vh;
+    }
+    .projectcard{
+        margin-bottom: 30px;
+        width: fit-content;
     }
 }
